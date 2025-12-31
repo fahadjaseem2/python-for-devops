@@ -1,7 +1,7 @@
 import psutil # Importing the psutil library to monitor system performance
 
 # Function to check CPU usage   
-def system_thershold():
+#def system_thershold():
     user_usage = int(input("Enter CPU usage percentage threshold (0-100) ;"))
 
     # getting the current cpu usage
@@ -15,4 +15,4 @@ def system_thershold():
         print ("CPU is operating within normal parameters.")
 
 # Calling the function to check system health
-system_thershold()
+#system_thershold()
